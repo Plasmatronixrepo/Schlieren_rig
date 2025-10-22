@@ -1,0 +1,19 @@
+v 4
+file . "tb_pwm_controller.vhd" "cb1777b9299cc237638dcaa9a35097c8025083ec" "20250731221357.890":
+  entity tb_pwm_controller at 1( 0) + 0 on 21;
+  architecture testbench of tb_pwm_controller at 8( 122) + 0 on 22;
+file . "led_pwm.vhd" "8b27de65fbbace8212a6d39001dfdfe2bc0c0952" "20250731221357.821":
+  entity led_pwm at 1( 0) + 0 on 17;
+  architecture behavioral of led_pwm at 20( 505) + 0 on 18;
+file . "sequence_trigger.vhd" "a0c57aacb80d9f6c7449a84a8006ed15752892df" "20250731221357.793":
+  entity sequence_trigger at 1( 0) + 0 on 13;
+  architecture behavioral of sequence_trigger at 18( 410) + 0 on 14;
+file . "uart.vhd" "8be5649f0c164fda425a64148c1a2dc0e5917053" "20250731221357.778":
+  entity uart at 1( 0) + 0 on 11;
+  architecture rtl of uart at 23( 632) + 0 on 12;
+file . "trafo_pwm.vhd" "9b5086a5a73ffbbb69830e9ea2b411e2f204e12f" "20250731221357.807":
+  entity trafo_pwm at 1( 0) + 0 on 15;
+  architecture behavioral of trafo_pwm at 21( 560) + 0 on 16;
+file . "pwm_control.vhd" "99b91af23cd5a1cd237f220feccac009f847d40d" "20250731221357.851":
+  entity pwm_control at 1( 0) + 0 on 19;
+  architecture behavioral of pwm_control at 27( 1045) + 0 on 20;
