@@ -1,0 +1,25 @@
+# config.py
+
+# GPIO Pins (BCM Numbering)
+PIN_SINE = 17   # Output: Acoustic Transducer
+PIN_LED = 23    # Output: Strobe Light
+PIN_CAM = 24    # Output: Camera Trigger
+
+# --- DEFAULTS (Matches Screenshot) ---
+DEFAULT_FPS = 20
+DEFAULT_FREQ = 40000
+DEFAULT_CYCLES = 100
+DEFAULT_DELAY = 1000
+DEFAULT_LED_US = 10
+DEFAULT_CAM_EXP = 10
+
+DEFAULT_ANA_GAIN = 16.0
+DEFAULT_DIG_GAIN = 25.0
+
+DEFAULT_START = 1000
+DEFAULT_END = 1002
+DEFAULT_STEP = 1
+DEFAULT_STACK = 20
+
+# Timing padding
+WAVE_PADDING_US = 50000
