@@ -1,2 +1,2 @@
 # Schlieren_rig
-Schlieren rig build hardware and firmware
+Schlieren rig V2 build hardware and firmware
